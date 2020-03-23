@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Aux from '../../hoc/Aux';
+import Aux from '../../hoc/Auxiliary';
 
 const layout = (props) => (
   <Aux>
@@ -12,4 +12,4 @@ const layout = (props) => (
 );
 
 
-export default App;
+export default layout;
