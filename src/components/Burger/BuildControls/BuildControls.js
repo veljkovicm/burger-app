@@ -23,7 +23,10 @@ const controls = [
           disabled={props.disabled[ctrl.type]} />
       ))}
       <div>
-        <button className={classes.ControlButton} disabled={!props.purchasable}>ORDER NOW</button>
+        <button
+          className={classes.ControlButton}
+          disabled={!props.purchasable}
+          onClick={props.ordered}>ORDER NOW</button>
         <button
           className={classes.ControlButton}
           disabled={!props.purchasable}
