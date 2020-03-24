@@ -9,7 +9,7 @@
   padding: 10px 0;
 }
 
-.OrderButton {
+.ControlButton {
     background-color: #DAD735;
     outline: none;
     cursor: pointer;
@@ -19,23 +19,23 @@
     font-size: 1.2em;
     padding: 15px 30px;
     box-shadow: 2px 2px 2px #966909;
-    margin: 10px 0;
+    margin: 10px;
 }
 
-.OrderButton:hover, .OrderButton:active {
+.ControlButton:hover, .ControlButton:active {
     background-color: #A0DB41;
     border: 1px solid #966909;
     color: #966909;
 }
 
-.OrderButton:disabled {
+.ControlButton:disabled {
     background-color: #C7C6C6;
     cursor: not-allowed;
     border: 1px solid #ccc;
     color: #888888;
 }
 
-.OrderButton:not(:disabled) {
+.ControlButton:not(:disabled) {
     animation: enable 0.3s linear;
 }
 
