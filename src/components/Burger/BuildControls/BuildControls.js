@@ -26,11 +26,11 @@ const controls = [
         <button
           className={classes.ControlButton}
           disabled={!props.purchasable}
-          onClick={props.ordered}>RESET</button>
+          onClick={props.reset}>RESET</button>
         <button
           className={classes.ControlButton}
           disabled={!props.purchasable}
-          onClick={props.reset}>ORDER NOW</button>
+          onClick={props.ordered}>ORDER NOW</button>
       </div>
     </div>
  );
