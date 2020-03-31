@@ -9,16 +9,6 @@
 
 }
 
-.ContactData form {
-  display: flex;
-  flex-direction: column;
-}
-
-.ContactData input {
-  max-width: 200px;
-  margin: 5px auto;
-}
-
 @media (min-width: 600px) {
   .ContactData {
     width: 500px;
