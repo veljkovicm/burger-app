@@ -26,10 +26,6 @@ const controls = [
         <button
           className={classes.ControlButton}
           disabled={!props.purchasable}
-          onClick={props.reset}>RESET</button>
-        <button
-          className={classes.ControlButton}
-          disabled={!props.purchasable}
           onClick={props.ordered}>ORDER NOW</button>
       </div>
     </div>
