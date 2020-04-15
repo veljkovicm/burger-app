@@ -24,9 +24,6 @@ const order = (props) => {
     }}
       key={ig.name}>{ig.name} ({ig.amount})</span>
   });
-
-  //console.log(ingredientOutput);
-  
   
   return(
     <div className={classes.Order}>
