@@ -48,8 +48,6 @@ const Auth = props => {
     }
   }, []);
 
-  
-
   const inputChangedHandler = (event, controlName) => {
     const updatedControls = updateObject(authForm, {
       [controlName]: updateObject(authForm[controlName], {
