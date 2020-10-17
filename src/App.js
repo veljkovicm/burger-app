@@ -21,6 +21,7 @@ const Auth = React.lazy(() => {
   return import('./containers/Auth/Auth')
 });
 
+
 const App = props => {
   const { onTryAutoSignup } = props;
   
